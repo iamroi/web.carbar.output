@@ -13,46 +13,46 @@ import 'unenv/runtime/fetch/index';
 import 'defu';
 
 const assets = {
-  "/_nuxt/0a146b0.js": {
-    "type": "application/javascript",
-    "etag": "\"f66-h4Nf0aTnER2e4J3i3v3xszMOHfU\"",
-    "mtime": "2022-02-22T23:32:39.444Z",
-    "path": "../public/_nuxt/0a146b0.js"
-  },
-  "/_nuxt/1580162.js": {
-    "type": "application/javascript",
-    "etag": "\"a8a-6WhiJxMRohWV4h0hLek1C7cHzlc\"",
-    "mtime": "2022-02-22T23:32:39.443Z",
-    "path": "../public/_nuxt/1580162.js"
-  },
   "/_nuxt/2eb0b1c.js": {
     "type": "application/javascript",
     "etag": "\"576d1-VfWudmDUe/9UC5G8G3qNuFR9bCc\"",
-    "mtime": "2022-02-22T23:32:39.445Z",
+    "mtime": "2022-02-22T23:52:28.799Z",
     "path": "../public/_nuxt/2eb0b1c.js"
   },
-  "/_nuxt/b4c7b7e.js": {
+  "/_nuxt/46c4e7a.js": {
     "type": "application/javascript",
-    "etag": "\"c1-SOeeI2C/RkcIVGtKninCVWivq14\"",
-    "mtime": "2022-02-22T23:32:39.443Z",
-    "path": "../public/_nuxt/b4c7b7e.js"
+    "etag": "\"ce-LoWc6wO/u5nylaXQ9Qwg93ldVM4\"",
+    "mtime": "2022-02-22T23:52:28.794Z",
+    "path": "../public/_nuxt/46c4e7a.js"
+  },
+  "/_nuxt/64b8860.js": {
+    "type": "application/javascript",
+    "etag": "\"a88-zS0LsiyTH8kc7Zg5gAnRLqKYx2o\"",
+    "mtime": "2022-02-22T23:52:28.794Z",
+    "path": "../public/_nuxt/64b8860.js"
+  },
+  "/_nuxt/7307d1d.js": {
+    "type": "application/javascript",
+    "etag": "\"f70-mk1nV7S0EAQvibevtYytlW3ZLME\"",
+    "mtime": "2022-02-22T23:52:28.799Z",
+    "path": "../public/_nuxt/7307d1d.js"
   },
   "/_nuxt/d7f90bc.js": {
     "type": "application/javascript",
     "etag": "\"24b94-/qdj8evpxhrqbFZm0gFB8SG3nxU\"",
-    "mtime": "2022-02-22T23:32:39.443Z",
+    "mtime": "2022-02-22T23:52:28.794Z",
     "path": "../public/_nuxt/d7f90bc.js"
   },
   "/_nuxt/de593d6.js": {
     "type": "application/javascript",
     "etag": "\"38a9-F0N1y6Km9C4b+08uRXWBxW4DFuo\"",
-    "mtime": "2022-02-22T23:32:39.443Z",
+    "mtime": "2022-02-22T23:52:28.794Z",
     "path": "../public/_nuxt/de593d6.js"
   },
   "/_nuxt/f4a20cd.js": {
     "type": "application/javascript",
     "etag": "\"d5-yChJWxdsRWzub7zkzIIWR9hp81E\"",
-    "mtime": "2022-02-22T23:32:39.442Z",
+    "mtime": "2022-02-22T23:52:28.794Z",
     "path": "../public/_nuxt/f4a20cd.js"
   }
 };
@@ -69,7 +69,7 @@ function getAsset (id) {
 
 const METHODS = ["HEAD", "GET"];
 const TWO_DAYS = 2 * 60 * 60 * 24;
-const STATIC_ASSETS_BASE = "/_nuxt/C:/Workspace/web.carbar/dist" + "/" + "1645572741";
+const STATIC_ASSETS_BASE = "/_nuxt/C:/Workspace/web.carbar/dist" + "/" + "1645573933";
 async function serveStatic(req, res) {
   if (!METHODS.includes(req.method)) {
     return;

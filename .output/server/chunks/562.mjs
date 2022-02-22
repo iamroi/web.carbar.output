@@ -19,6 +19,7 @@ var app = __webpack_require__(3830);
   __ssrInlineRender: true,
   setup(__props) {
     (0, app/* useRoute */.yj)();
+    (0, app/* useRouter */.tv)();
     return (_ctx, _push, _parent, _attrs) => {
       _push(` test `);
     };

@@ -101,6 +101,7 @@ var external_consola_ = __webpack_require__(1889);
     (0, external_vue_.onServerPrefetch)(async () => {
       external_consola_["default"].info("onServerPrefetch");
       await initFiltersFromUrl();
+      await filter();
     });
     (0, external_vue_.onMounted)(async () => {
       external_consola_["default"].log("onMounted");
