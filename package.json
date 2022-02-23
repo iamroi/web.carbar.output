@@ -1,13 +1,13 @@
 {
   "private": true,
   "scripts": {
-    "dev": "nuxi dev",
-    "start": "node .output/server/index.mjs"
+    "test": "nuxi dev",
+    "start": "cross-env HOST='0.0.0.0' node .output/server/index.mjs"
   },
   "dependencies": {
 
   },
   "devDependencies": {
-
+    "cross-env": "^7.0.3"
   }
 }
