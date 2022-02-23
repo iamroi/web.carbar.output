@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "test": "nuxi dev",
+    "build": "npm install",
     "start": "cross-env HOST='0.0.0.0' node .output/server/index.mjs"
   },
   "dependencies": {
