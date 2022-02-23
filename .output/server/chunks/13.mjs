@@ -2,7 +2,7 @@ const id = 13;
 const ids = [13];
 const modules = {
 
-/***/ 2013:
+/***/ 13:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,33 +14,33 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 // EXTERNAL MODULE: external "vue"
-var external_vue_ = __webpack_require__(6609);
+var external_vue_ = __webpack_require__(609);
 // EXTERNAL MODULE: ./node_modules/nuxt3/dist/app/index.mjs + 12 modules
-var app = __webpack_require__(3830);
+var app = __webpack_require__(830);
 // EXTERNAL MODULE: external "vue/server-renderer"
-var server_renderer_ = __webpack_require__(9344);
+var server_renderer_ = __webpack_require__(344);
 // EXTERNAL MODULE: ./components/breadcrumbs/Breadcrumb.vue + 2 modules
-var Breadcrumb = __webpack_require__(8135);
+var Breadcrumb = __webpack_require__(135);
 // EXTERNAL MODULE: ./components/product-catalog/RemoveFilterCloud.vue + 5 modules
 var RemoveFilterCloud = __webpack_require__(684);
 // EXTERNAL MODULE: ./components/product-catalog/FiltersAside.vue + 30 modules
-var FiltersAside = __webpack_require__(9679);
+var FiltersAside = __webpack_require__(679);
 // EXTERNAL MODULE: ./components/product-catalog/FilterResults.vue + 22 modules
-var FilterResults = __webpack_require__(2952);
+var FilterResults = __webpack_require__(952);
 // EXTERNAL MODULE: ./components/product-catalog/NoResults.vue + 2 modules
-var NoResults = __webpack_require__(3386);
+var NoResults = __webpack_require__(386);
 // EXTERNAL MODULE: ./components/dropdowns/Dropdown.vue + 2 modules
-var Dropdown = __webpack_require__(4118);
+var Dropdown = __webpack_require__(118);
 // EXTERNAL MODULE: ./components/links/Link.vue + 2 modules
-var Link = __webpack_require__(6398);
+var Link = __webpack_require__(398);
 // EXTERNAL MODULE: external "lodash-es"
 var external_lodash_es_ = __webpack_require__(352);
 // EXTERNAL MODULE: external "qs"
 var external_qs_ = __webpack_require__(938);
 // EXTERNAL MODULE: ./stores/product-catalog.js + 2 modules
-var product_catalog = __webpack_require__(8196);
+var product_catalog = __webpack_require__(196);
 // EXTERNAL MODULE: external "consola"
-var external_consola_ = __webpack_require__(1889);
+var external_consola_ = __webpack_require__(889);
 
 
 

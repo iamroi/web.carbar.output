@@ -2,7 +2,7 @@ const id = 562;
 const ids = [562];
 const modules = {
 
-/***/ 2562:
+/***/ 562:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -14,7 +14,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 // EXTERNAL MODULE: ./node_modules/nuxt3/dist/app/index.mjs + 12 modules
-var app = __webpack_require__(3830);
+var app = __webpack_require__(830);
 /* harmony default export */ const dist_ruleSet_0_pagesvue_type_script_setup_true_lang_js = ({
   __ssrInlineRender: true,
   setup(__props) {
