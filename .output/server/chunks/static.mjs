@@ -13,53 +13,53 @@ import 'unenv/runtime/fetch/index';
 import 'defu';
 
 const assets = {
-  "/_nuxt/07ef477.js": {
+  "/_nuxt/2cdd07a.js": {
     "type": "application/javascript",
-    "etag": "\"e97-lobTNCMv7AIGuYRlYWQ4xjW/0D0\"",
-    "mtime": "2022-02-23T05:57:06.625Z",
-    "path": "../public/_nuxt/07ef477.js"
-  },
-  "/_nuxt/2cb09ee.js": {
-    "type": "application/javascript",
-    "etag": "\"d5-YIfQeRcmi0rBoFAB6wUK5LP4i3s\"",
-    "mtime": "2022-02-23T05:57:06.624Z",
-    "path": "../public/_nuxt/2cb09ee.js"
+    "etag": "\"d4-LE5Ei/oOd25I37m+s5Slp3Kf19k\"",
+    "mtime": "2022-02-23T06:01:13.538Z",
+    "path": "../public/_nuxt/2cdd07a.js"
   },
   "/_nuxt/46c4e7a.js": {
     "type": "application/javascript",
     "etag": "\"ce-LoWc6wO/u5nylaXQ9Qwg93ldVM4\"",
-    "mtime": "2022-02-23T05:57:06.631Z",
+    "mtime": "2022-02-23T06:01:13.538Z",
     "path": "../public/_nuxt/46c4e7a.js"
   },
   "/_nuxt/7307d1d.js": {
     "type": "application/javascript",
     "etag": "\"f70-mk1nV7S0EAQvibevtYytlW3ZLME\"",
-    "mtime": "2022-02-23T05:57:06.629Z",
+    "mtime": "2022-02-23T06:01:13.541Z",
     "path": "../public/_nuxt/7307d1d.js"
   },
-  "/_nuxt/9365546.js": {
+  "/_nuxt/94117bd.js": {
     "type": "application/javascript",
-    "etag": "\"18523-EA6Pxnjb5X7kF5q766mrF4mMlN8\"",
-    "mtime": "2022-02-23T05:57:06.624Z",
-    "path": "../public/_nuxt/9365546.js"
+    "etag": "\"18522-QjVkUxnGjpRSstjzgZoVvd13E+k\"",
+    "mtime": "2022-02-23T06:01:13.538Z",
+    "path": "../public/_nuxt/94117bd.js"
   },
   "/_nuxt/de593d6.js": {
     "type": "application/javascript",
     "etag": "\"38a9-F0N1y6Km9C4b+08uRXWBxW4DFuo\"",
-    "mtime": "2022-02-23T05:57:06.624Z",
+    "mtime": "2022-02-23T06:01:13.538Z",
     "path": "../public/_nuxt/de593d6.js"
   },
   "/_nuxt/fa91da6.js": {
     "type": "application/javascript",
     "etag": "\"56922-cm2PlNnPutOcU36xDxUt7/FMY7c\"",
-    "mtime": "2022-02-23T05:57:06.631Z",
+    "mtime": "2022-02-23T06:01:13.541Z",
     "path": "../public/_nuxt/fa91da6.js"
   },
-  "/_nuxt/css/642f765.css": {
+  "/_nuxt/ffd355d.js": {
+    "type": "application/javascript",
+    "etag": "\"e95-PHRa15nxGmNVZfYHEcS++PVYae4\"",
+    "mtime": "2022-02-23T06:01:13.538Z",
+    "path": "../public/_nuxt/ffd355d.js"
+  },
+  "/_nuxt/css/2c65101.css": {
     "type": "text/css; charset=utf-8",
-    "etag": "\"c4f5-J2Aseo4gJDYFsIIPyFsz+XNvTiM\"",
-    "mtime": "2022-02-23T05:57:06.630Z",
-    "path": "../public/_nuxt/css/642f765.css"
+    "etag": "\"c521-KQJEBEWgHIrkQI8up/PGlkLfCP4\"",
+    "mtime": "2022-02-23T06:01:13.541Z",
+    "path": "../public/_nuxt/css/2c65101.css"
   }
 };
 
@@ -75,7 +75,7 @@ function getAsset (id) {
 
 const METHODS = ["HEAD", "GET"];
 const TWO_DAYS = 2 * 60 * 60 * 24;
-const STATIC_ASSETS_BASE = "/_nuxt/C:/Workspace/web.carbar/dist" + "/" + "1645595814";
+const STATIC_ASSETS_BASE = "/_nuxt/C:/Workspace/web.carbar/dist" + "/" + "1645596057";
 async function serveStatic(req, res) {
   if (!METHODS.includes(req.method)) {
     return;

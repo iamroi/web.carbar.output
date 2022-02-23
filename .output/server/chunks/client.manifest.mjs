@@ -2,22 +2,22 @@ const client_manifest = {
   "publicPath": "/_nuxt/",
   "all": [
     "fa91da6.js",
-    "9365546.js",
-    "css/642f765.css",
+    "94117bd.js",
+    "css/2c65101.css",
     "de593d6.js",
     "7307d1d.js",
-    "07ef477.js",
-    "2cb09ee.js",
+    "ffd355d.js",
+    "2cdd07a.js",
     "46c4e7a.js"
   ],
   "initial": [
-    "07ef477.js",
-    "2cb09ee.js"
+    "ffd355d.js",
+    "2cdd07a.js"
   ],
   "async": [
     "fa91da6.js",
-    "9365546.js",
-    "css/642f765.css",
+    "94117bd.js",
+    "css/2c65101.css",
     "de593d6.js",
     "7307d1d.js",
     "46c4e7a.js"
@@ -231,6 +231,10 @@ const client_manifest = {
       0
     ],
     "efd6e29e": [
+      2,
+      1
+    ],
+    "efd6e29c": [
       2,
       1
     ],
@@ -1492,16 +1496,16 @@ const client_manifest = {
   "assetsMapping": {
     "bba68bf6": [
       "fa91da6.js",
-      "9365546.js",
+      "94117bd.js",
       "de593d6.js",
       "7307d1d.js",
       "46c4e7a.js"
     ],
     "6fca0322": [
-      "07ef477.js"
+      "ffd355d.js"
     ],
     "1a3ae26b": [
-      "2cb09ee.js"
+      "2cdd07a.js"
     ]
   }
 };
