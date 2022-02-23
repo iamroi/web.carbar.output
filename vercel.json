@@ -2,6 +2,6 @@
   "version": 2,
   "name": "name-of-your-vercel-app",
   "routes": [
-    { "src": "/(.*)", "dest": "/.output/server/index.mjs" }
+    { "src": "/(.*)", "dest": ".output/server/index.mjs" }
   ]
 }
