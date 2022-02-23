@@ -1,13 +1,13 @@
 {
   "private": true,
   "scripts": {
-    "build": "npm install",
+    "build": "npm install && npm i -g cross-env",
     "start": "cross-env HOST='0.0.0.0' node .output/server/index.mjs"
   },
   "dependencies": {
-
+     "cross-env": "^7.0.3"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3"
+    
   }
 }
