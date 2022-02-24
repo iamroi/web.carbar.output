@@ -83,8 +83,23 @@ var external_consola_ = __webpack_require__(889);
     const activeSortBySlug = (0, external_vue_.computed)(() => productCatalog.filters.sortBy);
     const activeSortBy = (0, external_vue_.computed)(() => (0, external_lodash_es_.find)(sortByOptions.value, (item) => item.slug === activeSortBySlug.value));
     const pagination = (0, external_vue_.computed)(() => productCatalog.productsPagination);
-    (0, external_vue_.computed)(() => productCatalog.isInitialPageLoaded);
     const currentQuery = (0, external_vue_.computed)(() => productCatalog.getCurrentQuery);
+    const prevPageQueryString = (0, external_vue_.computed)(() => {
+      if (parseInt(pagination.value.currentPage) === 1) {
+        return null;
+      }
+      const query = currentQuery.value;
+      query.page(pagination.value.currentPage - 1);
+      return query._builder.query();
+    });
+    const nextPageQueryString = (0, external_vue_.computed)(() => {
+      if (pagination.value.isLastPage) {
+        return null;
+      }
+      const query = currentQuery.value;
+      query.page(pagination.value.currentPage + 1);
+      return query._builder.query();
+    });
     const mounted = (0, external_vue_.ref)(false);
     (0, external_vue_.watch)(filters, async (newValue, oldValue) => {
       if (!mounted.value)
@@ -126,6 +141,14 @@ var external_consola_ = __webpack_require__(889);
         }
         urlFilters[key] = values;
       }
+      if (queryParams.filter && queryParams.filter.sortBy) {
+        urlFilters["sortBy"] = queryParams.filter.sortBy;
+      }
+      if (queryParams.page && queryParams.page.number) {
+        await productCatalog.updateProductsPagination({
+          currentPage: queryParams.page.number
+        });
+      }
       await productCatalog.updateFilters(urlFilters);
     };
     const onFiltersChange = async () => {
@@ -149,7 +172,110 @@ var external_consola_ = __webpack_require__(889);
       trailing: true
     });
     return (_ctx, _push, _parent, _attrs) => {
-      _push(`<div${(0, server_renderer_.ssrRenderAttrs)((0, external_vue_.mergeProps)({ class: "py-6 lg:py-8" }, _attrs))}><div class="container flex"><div class="w-3/12">`);
+      const _component_Html = (0, external_vue_.resolveComponent)("Html");
+      const _component_Head = (0, external_vue_.resolveComponent)("Head");
+      const _component_Title = (0, external_vue_.resolveComponent)("Title");
+      const _component_Meta = (0, external_vue_.resolveComponent)("Meta");
+      const _component_Link = (0, external_vue_.resolveComponent)("Link");
+      _push(`<div${(0, server_renderer_.ssrRenderAttrs)((0, external_vue_.mergeProps)({ class: "py-6 lg:py-8" }, _attrs))}>`);
+      _push((0, server_renderer_.ssrRenderComponent)(_component_Html, { lang: `en-US` }, {
+        default: (0, external_vue_.withCtx)((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2((0, server_renderer_.ssrRenderComponent)(_component_Head, null, {
+              default: (0, external_vue_.withCtx)((_2, _push3, _parent3, _scopeId2) => {
+                if (_push3) {
+                  _push3((0, server_renderer_.ssrRenderComponent)(_component_Title, null, {
+                    default: (0, external_vue_.withCtx)((_3, _push4, _parent4, _scopeId3) => {
+                      if (_push4) {
+                        _push4(`Carbar | Search`);
+                      } else {
+                        return [
+                          (0, external_vue_.createTextVNode)("Carbar | Search")
+                        ];
+                      }
+                    }),
+                    _: 1
+                  }, _parent3, _scopeId2));
+                  _push3((0, server_renderer_.ssrRenderComponent)(_component_Meta, {
+                    name: "description",
+                    content: `Carbar | Search`
+                  }, null, _parent3, _scopeId2));
+                  if ((0, external_vue_.unref)(prevPageQueryString)) {
+                    _push3((0, server_renderer_.ssrRenderComponent)(_component_Link, {
+                      rel: "prev",
+                      href: `/search${(0, external_vue_.unref)(prevPageQueryString)}`
+                    }, null, _parent3, _scopeId2));
+                  } else {
+                    _push3(`<!---->`);
+                  }
+                  if ((0, external_vue_.unref)(nextPageQueryString)) {
+                    _push3((0, server_renderer_.ssrRenderComponent)(_component_Link, {
+                      rel: "next",
+                      href: `/search${(0, external_vue_.unref)(nextPageQueryString)}`
+                    }, null, _parent3, _scopeId2));
+                  } else {
+                    _push3(`<!---->`);
+                  }
+                } else {
+                  return [
+                    (0, external_vue_.createVNode)(_component_Title, null, {
+                      default: (0, external_vue_.withCtx)(() => [
+                        (0, external_vue_.createTextVNode)("Carbar | Search")
+                      ]),
+                      _: 1
+                    }),
+                    (0, external_vue_.createVNode)(_component_Meta, {
+                      name: "description",
+                      content: `Carbar | Search`
+                    }),
+                    (0, external_vue_.unref)(prevPageQueryString) ? ((0, external_vue_.openBlock)(), (0, external_vue_.createBlock)(_component_Link, {
+                      key: 0,
+                      rel: "prev",
+                      href: `/search${(0, external_vue_.unref)(prevPageQueryString)}`
+                    }, null, 8, ["href"])) : (0, external_vue_.createCommentVNode)("", true),
+                    (0, external_vue_.unref)(nextPageQueryString) ? ((0, external_vue_.openBlock)(), (0, external_vue_.createBlock)(_component_Link, {
+                      key: 1,
+                      rel: "next",
+                      href: `/search${(0, external_vue_.unref)(nextPageQueryString)}`
+                    }, null, 8, ["href"])) : (0, external_vue_.createCommentVNode)("", true)
+                  ];
+                }
+              }),
+              _: 1
+            }, _parent2, _scopeId));
+          } else {
+            return [
+              (0, external_vue_.createVNode)(_component_Head, null, {
+                default: (0, external_vue_.withCtx)(() => [
+                  (0, external_vue_.createVNode)(_component_Title, null, {
+                    default: (0, external_vue_.withCtx)(() => [
+                      (0, external_vue_.createTextVNode)("Carbar | Search")
+                    ]),
+                    _: 1
+                  }),
+                  (0, external_vue_.createVNode)(_component_Meta, {
+                    name: "description",
+                    content: `Carbar | Search`
+                  }),
+                  (0, external_vue_.unref)(prevPageQueryString) ? ((0, external_vue_.openBlock)(), (0, external_vue_.createBlock)(_component_Link, {
+                    key: 0,
+                    rel: "prev",
+                    href: `/search${(0, external_vue_.unref)(prevPageQueryString)}`
+                  }, null, 8, ["href"])) : (0, external_vue_.createCommentVNode)("", true),
+                  (0, external_vue_.unref)(nextPageQueryString) ? ((0, external_vue_.openBlock)(), (0, external_vue_.createBlock)(_component_Link, {
+                    key: 1,
+                    rel: "next",
+                    href: `/search${(0, external_vue_.unref)(nextPageQueryString)}`
+                  }, null, 8, ["href"])) : (0, external_vue_.createCommentVNode)("", true)
+                ]),
+                _: 1
+              })
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`<div class="container flex"><div class="w-3/12">`);
       _push((0, server_renderer_.ssrRenderComponent)(FiltersAside/* default */.Z, { class: "pr-14" }, null, _parent));
       _push(`</div><div class="w-9/12"><div class="flex flex-col pb-8 border-b border-gray-300">`);
       _push((0, server_renderer_.ssrRenderComponent)(Breadcrumb/* default */.Z, { crumbs }, null, _parent));

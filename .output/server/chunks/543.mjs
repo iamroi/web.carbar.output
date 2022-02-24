@@ -1458,7 +1458,7 @@ var product_catalog = __webpack_require__(196);
       }
       _push(`</div><div class="flex justify-center mt-6">`);
       _push((0, server_renderer_.ssrRenderComponent)(VueTailwindPagination, {
-        current: (0, external_vue_.unref)(pagination).current,
+        current: (0, external_vue_.unref)(pagination).currentPage,
         total: (0, external_vue_.unref)(pagination).total,
         perPage: (0, external_vue_.unref)(pagination).perPage
       }, null, _parent));
@@ -1614,12 +1614,15 @@ var vue_ = __webpack_require__(50);
               default: (0, external_vue_.withCtx)((_, _push3, _parent3, _scopeId2) => {
                 if (_push3) {
                   (0, server_renderer_.ssrRenderSlot)(_ctx.$slots, "disclosure-panel", {}, () => {
-                    _push3(` To animate the opening/closing of your Disclosure&#39;s panel, you can use Vue&#39;s built-in To animate the opening/closing of your Disclosure&#39;s panel, you can use Vue&#39;s built-in To animate the opening/closing of your Disclosure&#39;s panel, you can use Vue&#39;s built-in To animate the opening/closing of your Disclosure&#39;s panel, you can use Vue&#39;s built-in To animate the opening/closing of your Disclosure&#39;s panel, you can use Vue&#39;s built-in To animate the opening/closing of your Disclosure&#39;s panel, you can use Vue&#39;s built-in To animate the opening/closing of your Disclosure&#39;s panel, you can use Vue&#39;s built-in To animate the opening/closing of your Disclosure&#39;s panel, you can use Vue&#39;s built-in To animate the opening/closing of your Disclosure&#39;s panel, you can use Vue&#39;s built-in To animate the opening/closing of your Disclosure&#39;s panel, you can use Vue&#39;s built-in To animate the opening/closing of your Disclosure&#39;s panel, you can use Vue&#39;s built-in To animate the opening/closing of your Disclosure&#39;s panel, you can use Vue&#39;s built-in To animate the opening/closing of your Disclosure&#39;s panel, you can use Vue&#39;s built-in To animate the opening/closing of your Disclosure&#39;s panel, you can use Vue&#39;s built-in To animate the opening/closing of your Disclosure&#39;s panel, you can use Vue&#39;s built-in To animate the opening/closing of your Disclosure&#39;s panel, you can use Vue&#39;s built-in To animate the opening/closing of your Disclosure&#39;s panel, you can use Vue&#39;s built-in To animate the opening/closing of your Disclosure&#39;s panel, you can use Vue&#39;s built-in To animate the opening/closing of your Disclosure&#39;s panel, you can use Vue&#39;s built-in To animate the opening/closing of your Disclosure&#39;s panel, you can use Vue&#39;s built-in To animate the opening/closing of your Disclosure&#39;s panel, you can use Vue&#39;s built-in To animate the opening/closing of your Disclosure&#39;s panel, you can use Vue&#39;s built-in `);
+                    _push3(`<div style="${(0, server_renderer_.ssrRenderStyle)({ "height": "250px" })}" class="bg-gray-100"${_scopeId2}></div>`);
                   }, _push3, _parent3, _scopeId2);
                 } else {
                   return [
                     (0, external_vue_.renderSlot)(_ctx.$slots, "disclosure-panel", {}, () => [
-                      (0, external_vue_.createTextVNode)(" To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in ")
+                      (0, external_vue_.createVNode)("div", {
+                        style: { "height": "250px" },
+                        class: "bg-gray-100"
+                      })
                     ])
                   ];
                 }
@@ -1688,7 +1691,10 @@ var vue_ = __webpack_require__(50);
                   (0, external_vue_.createVNode)((0, external_vue_.unref)(vue_.DisclosurePanel), null, {
                     default: (0, external_vue_.withCtx)(() => [
                       (0, external_vue_.renderSlot)(_ctx.$slots, "disclosure-panel", {}, () => [
-                        (0, external_vue_.createTextVNode)(" To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in To animate the opening/closing of your Disclosure's panel, you can use Vue's built-in ")
+                        (0, external_vue_.createVNode)("div", {
+                          style: { "height": "250px" },
+                          class: "bg-gray-100"
+                        })
                       ])
                     ]),
                     _: 3
@@ -1889,9 +1895,8 @@ var ContentLoader = __webpack_require__(777);
     const productCatalog = (0, product_catalog/* useProductCatalog */.M)();
     const facetItems = (0, external_vue_.computed)(() => productCatalog.facets[props.facetKey]);
     const activeFilters = (0, external_vue_.computed)(() => productCatalog.activeFilters);
-    (0, external_vue_.computed)(() => productCatalog.isDirty);
-    const isInitialPageLoaded = (0, external_vue_.computed)(() => productCatalog.isInitialPageLoaded);
-    const showContentLoader = (0, external_vue_.computed)(() => !isInitialPageLoaded.value);
+    const isDirty = (0, external_vue_.computed)(() => productCatalog.isDirty);
+    const showContentLoader = (0, external_vue_.computed)(() => !isDirty.value);
     return (_ctx, _push, _parent, _attrs) => {
       _push(`<div${(0, server_renderer_.ssrRenderAttrs)((0, external_vue_.mergeProps)({ class: "flex flex-col flex-wrap w-full" }, _attrs))}><div class="flex justify-between mb-3"><span class="font-medium text-gray-650 mb-0">${(0, server_renderer_.ssrInterpolate)(__props.title)}</span>`);
       if ((0, external_vue_.unref)(activeFilters)[__props.facetKey] && (0, external_vue_.unref)(activeFilters)[__props.facetKey].length) {
@@ -3304,8 +3309,7 @@ const FilterSelectbox_exports_ = FilterSelectboxvue_type_script_setup_true_lang_
       return options;
     });
     const isDirty = (0, external_vue_.computed)(() => productCatalog.isDirty);
-    const isInitialPageLoaded = (0, external_vue_.computed)(() => productCatalog.isInitialPageLoaded);
-    const showContentLoader = (0, external_vue_.computed)(() => !isInitialPageLoaded.value);
+    const showContentLoader = (0, external_vue_.computed)(() => !isDirty.value);
     (0, external_vue_.watch)(() => productCatalog.filters.priceFrom, (newValue, oldValue) => {
       priceFrom.value = newValue;
     });
@@ -3428,8 +3432,7 @@ const PriceFacet_exports_ = PriceFacetvue_type_script_setup_true_lang_js;
       return options;
     });
     const isDirty = (0, external_vue_.computed)(() => productCatalog.isDirty);
-    const isInitialPageLoaded = (0, external_vue_.computed)(() => productCatalog.isInitialPageLoaded);
-    const showContentLoader = (0, external_vue_.computed)(() => !isInitialPageLoaded.value);
+    const showContentLoader = (0, external_vue_.computed)(() => !isDirty.value);
     (0, external_vue_.watch)(() => productCatalog.filters.yearFrom, (newValue, oldValue) => {
       yearFrom.value = newValue;
     });
@@ -3532,8 +3535,7 @@ const YearFacet_exports_ = YearFacetvue_type_script_setup_true_lang_js;
     const makeOptions = (0, external_vue_.computed)(() => productCatalog.facets.makes);
     const modelOptions = (0, external_vue_.computed)(() => productCatalog.facets.models);
     const isDirty = (0, external_vue_.computed)(() => productCatalog.isDirty);
-    const isInitialPageLoaded = (0, external_vue_.computed)(() => productCatalog.isInitialPageLoaded);
-    const showContentLoader = (0, external_vue_.computed)(() => !isInitialPageLoaded.value);
+    const showContentLoader = (0, external_vue_.computed)(() => !isDirty.value);
     (0, external_vue_.watch)(makes, (newValue, oldValue) => {
       handleAllSelection(newValue, oldValue, makes);
     });
@@ -4202,8 +4204,10 @@ const useProductCatalog = (0, external_pinia_.defineStore)("productCatalog", {
     products: [],
     productsPagination: {
       total: null,
-      current: 1,
-      perPage: 5
+      currentPage: 1,
+      lastPage: null,
+      perPage: 5,
+      isLastPage: false
     },
     filters: getDefaultFiltersState(),
     facets: {
@@ -4245,8 +4249,7 @@ const useProductCatalog = (0, external_pinia_.defineStore)("productCatalog", {
       ]
     },
     isFiltering: false,
-    isDirty: false,
-    isInitialPageLoaded: false
+    isDirty: false
   }),
   getters: {
     getCurrentQuery(state) {
@@ -4355,11 +4358,12 @@ const useProductCatalog = (0, external_pinia_.defineStore)("productCatalog", {
       await this.setProducts(payload.data);
       await this.updateProductsPagination({
         total: payload.total,
-        current: payload.current_page,
-        perPage: payload.per_page
+        currentPage: payload.current_page,
+        lastPage: payload.last_page,
+        perPage: payload.per_page,
+        isLastPage: parseInt(payload.current_page) === parseInt(payload.last_page)
       });
       this.isDirty = true;
-      this.isInitialPageLoaded = true;
     },
     setProducts(payload) {
       this.products = payload;
@@ -5763,7 +5767,7 @@ const Body = (0, external_vue_.defineComponent)({
   props: globalProps,
   setup: setupForUseMeta((bodyAttrs) => ({ bodyAttrs }), true)
 });
-/* harmony default export */ const meta_config = ({ "globalMeta": { "meta": [{ "charset": "utf-8" }, { "name": "viewport", "content": "width=device-width, initial-scale=1" }], "link": [], "style": [], "script": [] }, "mixinKey": "created" });
+/* harmony default export */ const meta_config = ({ "globalMeta": { "meta": [{ "charset": "utf-8" }, { "name": "viewport", "content": "width=device-width, initial-scale=1" }, { "charset": "utf-8" }, { "name": "viewport", "content": "width=device-width, initial-scale=1" }, { "hid": "description", "name": "description", "content": "" }, { "hid": "robots", "name": "robots", "content": "noindex" }, { "name": "format-detection", "content": "telephone=no" }], "link": [], "style": [], "script": [] }, "mixinKey": "created" });
 
 
 
@@ -5886,7 +5890,7 @@ __webpack_require__(938);
 // EXTERNAL MODULE: ./stores/product-catalog.js + 2 modules
 __webpack_require__(196);
 // EXTERNAL MODULE: external "consola"
-var external_consola_ = __webpack_require__(889);
+__webpack_require__(889);
 const searchvue_type_script_setup_true_lang_js_macro_true_meta = undefined;
 
 
@@ -6073,7 +6077,7 @@ const createAxiosInstance = (axiosOptions) => {
 };
 /* harmony default export */ const axios_options = ((0, app/* defineNuxtPlugin */.fm)((ctx) => {
   const runtimeConfig = ctx.$config && ctx.$config.axios || {};
-  const baseURL =  runtimeConfig.baseURL || runtimeConfig.baseUrl || process.env._AXIOS_BASE_URL_ || "https://5c807d5f-7183-4992-97da-69f722dca174.mock.pstmn.io";
+  const baseURL =  runtimeConfig.baseURL || runtimeConfig.baseUrl || process.env._AXIOS_BASE_URL_ || "/";
   const headers = JSON.parse('{"common":{"Accept":"application/json, text/plain, */*"},"delete":{},"get":{},"head":{},"post":{},"put":{},"patch":{}}');
   const axiosOptions = {
     baseURL,
@@ -6123,17 +6127,9 @@ const PiniaNuxtPlugin = (context, inject) => {
 };
 /* harmony default export */ const axios = ((0, app/* defineNuxtPlugin */.fm)((nuxtApp) => {
 }));
-
-
 /* harmony default export */ const consola = ((0, app/* defineNuxtPlugin */.fm)((nuxtApp) => {
   (0, app/* useRuntimeConfig */.BE)();
-  return {
-    provide: {
-      log: external_consola_["default"].create({
-        level:  -1 
-      })
-    }
-  };
+  return {};
 }));
 
 // EXTERNAL MODULE: ./vendor/vue-api-query/src/index.js + 4 modules

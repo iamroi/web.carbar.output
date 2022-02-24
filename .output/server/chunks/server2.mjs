@@ -4188,7 +4188,7 @@ module.exports = x({ ["RouterLink"]: () => vueRouter_cjs.RouterLink, ["RouterVie
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var x = y => { var x = {}; __webpack_require__.d(x, y); return x; };
-module.exports = x({ ["ssrIncludeBooleanAttr"]: () => serverRenderer.exports.ssrIncludeBooleanAttr, ["ssrInterpolate"]: () => serverRenderer.exports.ssrInterpolate, ["ssrRenderAttr"]: () => serverRenderer.exports.ssrRenderAttr, ["ssrRenderAttrs"]: () => serverRenderer.exports.ssrRenderAttrs, ["ssrRenderClass"]: () => serverRenderer.exports.ssrRenderClass, ["ssrRenderComponent"]: () => serverRenderer.exports.ssrRenderComponent, ["ssrRenderList"]: () => serverRenderer.exports.ssrRenderList, ["ssrRenderSlot"]: () => serverRenderer.exports.ssrRenderSlot, ["ssrRenderSuspense"]: () => serverRenderer.exports.ssrRenderSuspense });
+module.exports = x({ ["ssrIncludeBooleanAttr"]: () => serverRenderer.exports.ssrIncludeBooleanAttr, ["ssrInterpolate"]: () => serverRenderer.exports.ssrInterpolate, ["ssrRenderAttr"]: () => serverRenderer.exports.ssrRenderAttr, ["ssrRenderAttrs"]: () => serverRenderer.exports.ssrRenderAttrs, ["ssrRenderClass"]: () => serverRenderer.exports.ssrRenderClass, ["ssrRenderComponent"]: () => serverRenderer.exports.ssrRenderComponent, ["ssrRenderList"]: () => serverRenderer.exports.ssrRenderList, ["ssrRenderSlot"]: () => serverRenderer.exports.ssrRenderSlot, ["ssrRenderStyle"]: () => serverRenderer.exports.ssrRenderStyle, ["ssrRenderSuspense"]: () => serverRenderer.exports.ssrRenderSuspense });
 
 /***/ }),
 
